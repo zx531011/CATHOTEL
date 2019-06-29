@@ -1,0 +1,432 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    font-weight: 900;
+}
+/* 導覽列 設定*/
+.導覽外 {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+.導覽列 {
+    background-color: rgb(199,150,100);
+    max-width: 100%;
+    height: 80px;
+}
+.導覽列 .logo  {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    margin-left: 50px;
+}
+.導覽列 .logo img {
+    width: 100%;
+    height: 100%;
+}
+.導覽列 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.導覽列 ul {
+    float: right;
+    margin: 25px 20px;
+}
+.導覽列 ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+/* 圖1設定 */
+.圖1 img {
+    height: 40%;
+    width: 100%;
+}
+/* 最新消息 */
+.最新消息 {
+    background-color: rgb(239, 235, 233);
+}
+.最新消息 h1 {
+    text-align: center;
+    color: rgb(199,150,100);
+    font-size: 400%;
+}
+.最新消息 img {
+    height: 30%;
+    width: 80%;
+    margin: 15px 0 50px 10%;
+}
+/* 頁尾 */
+.頁尾 {
+    margin: 50px 0;
+}
+.頁尾1 {
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+    margin-left: 3%;
+}
+.頁尾1 h1 {
+    color: rgb(199,150,100);
+    font-size: 30px;    
+}
+.頁尾1 p {
+    margin-top: 20px;
+    color: rgb(75, 74, 74);
+    font-weight: normal;
+    font-size: 20px;
+}
+.頁尾2 {
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+    margin-left: 3%;
+}
+.頁尾2 h1 {
+    color: rgb(199,150,100);
+    font-size: 30px; 
+}
+.頁尾2 p {
+    margin-top: 20px;
+    color: rgb(75, 74, 74);
+    font-weight: normal;
+    font-size: 20px;
+}
+.頁尾3 {
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+    margin-left: 3%;
+}
+.頁尾3 h1 {
+    color: rgb(199,150,100);
+    font-size: 30px; 
+}
+.頁尾3 img {
+    width: 15%;
+    height: 50px;
+    margin-top: 18px;
+}
+.版權聲明 {
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* 關於朕 */
+
+.d1 {
+    background-color:rgb(239, 235, 233);
+}
+.d1 h1 {
+    text-align: center;
+    color: rgb(199,150,100);
+    font-size: 40px;
+}
+.d1-1 {
+    display: inline-block;
+    vertical-align:top;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+.d1-1 h2{
+    color: rgb(15, 15, 15);
+    font-size: 32px;
+}
+.d1-1 p {
+    color: rgb(100, 100, 100);
+    font-size: 23px;
+    margin: 5% 0;
+}
+.d1-1圖{
+    display: inline-block;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.d1-1圖 img {
+    width:100%;
+}
+.d1-2圖 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.d1-2圖 img {
+    width:100%;
+}
+.d1-2 {
+    display: inline-block;
+    vertical-align:top;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+.d1-2 h2 {
+    color: rgb(15, 15, 15);
+    font-size: 32px;
+}
+.d1-2 p {
+    color: rgb(100, 100, 100);
+    font-size: 23px;
+    margin: 5% 0;
+}
+.d2 {
+    height: 880px;
+    overflow: hidden;
+}
+.d2-1圖 {
+    width: 50%;
+    height: 400px;
+    float: left;
+    position: relative;
+    z-index: -1;
+    left: 6%;
+    top:230px;
+}
+.d2-2 {
+    display: inline-block;
+    width: 30%;
+    margin-left: 7%;
+    margin-top: 220px;
+}
+.d2-3 { 
+    display: inline-block;
+    color:rgb(199,150,100);
+    font-size: 18px;
+}
+.d2-2 h2 {
+    font-size: 30px;
+    color: black;
+}
+.d2-2 p {
+    font-weight: normal;
+    font-size: 23px;
+    color: black;
+}
+.d2-4圖 {
+    float: right;
+    width: 50%;
+    height: 400px;
+    margin-right: 6%;
+}
+.d2-4圖 img {
+    width: 100%;
+    height: 100%;
+}
+.d2-5 {
+    float: left;
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 250px;
+}
+.d2-6 {
+    display: inline-block;
+    color:rgb(199,150,100);
+    font-size: 18px;
+}
+.d2-5 h2 {
+    font-size: 30px;
+    color: black;
+}
+.d2-5 p{
+    font-weight: normal;
+    font-size: 23px;
+    color: black;
+}
+
+/* 房型介紹 */
+
+.d3 {
+    background-color:rgb(239, 235, 233); 
+}
+.d3 h1 {
+    color: rgb(199,150,100);
+    font-size: 50px;
+    text-align: center;
+}
+.d3-1圖 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.d3-1圖 img {
+    width: 100%;
+    height: 340px;
+}
+.d3-1 {
+    vertical-align:top;
+    display: inline-block;
+    width: 55%;
+    margin-left: 3%;
+}
+.d3-1 h2 {
+    font-size: 35px;
+    color: black;
+    margin-top: 50px;
+}
+.d3-1 p {
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+    margin-top: 40px;
+}
+.d3-2 {
+    display: inline-block;
+    vertical-align:top;
+    width: 50%;
+    margin-left: 9%;
+}
+.d3-2圖 {
+    display: inline-block;
+    width: 32%;
+    margin-left: 3%;
+}
+.d3-2圖 img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.d3-2 h2 {
+    direction: rtl;
+    font-size: 30px;
+    color: black;
+    margin-top: 5px;
+}
+.d3-2 p {
+    font-weight: normal;
+    direction: rtl;
+    font-size: 25px;
+    color: black;
+    margin-top: 25px;
+}
+.d4 h1 {
+    color: rgb(199,150,100);
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.d4 {
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+.d4 img {
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+}
+
+/* 住宿須知 */
+
+.d5 {
+    margin: 20px 40px;
+}
+.d5h1{
+    text-align: left;
+    color: rgb(199,150,100);
+    font-size: 50px;
+    margin: 30px 20px;
+}
+.d5h1 hr {
+    margin-top: 10px;
+}
+.d5 p {
+    color: rgb(100, 100, 100); 
+    font-size: 25px;
+    letter-spacing: 2.5px;
+    line-height: 2;
+    margin-top: 10px;
+    font-weight: normal;
+}
+.d5 hr{
+    margin-top: 10px;
+}
+
+/* 聯絡我們 */
+
+.d6h1 {
+    margin-left: 80px;
+    color: rgb(199,150,100);
+    font-size: 50px;
+    margin-top: 30px;
+}
+.d6h1 hr {
+    width: 90%;
+    margin: 10px 10px;
+}
+.d6 {
+    margin-top: 100px;
+}
+.d6 form {
+    margin-left: 10%;
+}
+.d6 form label {
+    font-size: 30px;
+    margin-left: 2px;
+    color:rgb(94, 94, 94);
+}
+
+.d6 form input[type=text] {
+    display: block;
+    width: 90%;
+    padding: 20px 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(150, 149, 149);
+    outline: none;
+}
+#備註 {
+    padding-top:70px;
+}
+
+/* 常見問題 */
+.d7h1 {
+    margin-left: 80px;
+    color: rgb(199,150,100);
+    font-size: 50px;
+    margin-top: 30px;
+}
+.d7h1 hr {
+    width: 90%;
+    margin: 10px 10px;
+}
+.d7 {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+.d7 div {
+    display: block;
+    width: 90%;
+    height: 100px;
+    background-color:rgb(239, 235, 233);
+    margin-top: 60px;
+    margin-left: 5%;
+}
+.d7  img {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 6%;
+}
+.d7 div h1 {
+    font-size: 35px;
+}
+.d7 div p {
+    font-size: 20px;
+    color: rgb(150, 149, 149);
+}
+.d7 div hr {
+    color: black;
+    height: 0.5px;
+    width: 80%;
+    margin: 10px 0;
+}
